@@ -10,7 +10,7 @@
 #endif
 
 
-namespace ceg4350 {
+namespace ceg7420 {
 
     class NetSubscriber : public Utility{
     public:

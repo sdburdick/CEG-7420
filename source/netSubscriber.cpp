@@ -7,7 +7,7 @@ static const char* DEFAULT_IP = "127.0.0.1";
 #include <winsock2.h>
 #include <ws2tcpip.h>
 
-namespace ceg4350 {
+namespace ceg7420 {
     NetSubscriber::NetSubscriber()
     {
         for (int i = 0; i < DATA_ARRAY_SIZE; i++) {

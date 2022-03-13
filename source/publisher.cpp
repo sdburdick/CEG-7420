@@ -14,7 +14,7 @@
 static const char* hostIp = "127.0.0.1";
 static const char* destIp = "127.0.0.1";
 
-namespace ceg4350 {
+namespace ceg7420 {
     Publisher::Publisher()
     {
         for (int i = 0; i < DATA_ARRAY_SIZE; i++) {

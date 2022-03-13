@@ -10,7 +10,7 @@
 #endif
 //#include <Mq.h>
 
-namespace ceg4350 {
+namespace ceg7420 {
 
     class Subscriber : public Utility{
     public:

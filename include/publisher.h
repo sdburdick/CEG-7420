@@ -10,7 +10,7 @@
 #undef WIN32_LEAN_AND_MEAN
 #endif
 
-namespace ceg4350 {
+namespace ceg7420 {
 
     class Publisher : public Utility{
     public:

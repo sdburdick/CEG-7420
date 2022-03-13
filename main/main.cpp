@@ -22,7 +22,7 @@ int main(int argc, char* argv[]) {
     for (int i = 0; i < argc; i++) {
         if (strlen(argv[i]) == strlen(subarg) && strncmp(argv[i], subarg, strlen(subarg)) == 0) {
             std::cout << "child launched" << std::endl;
-            ceg4350::NetSubscriber netsub;
+            ceg7420::NetSubscriber netsub;
             bool socketfailed = netsub.pullSocket();
             if (socketfailed) {
                 std::cout << "NetSub socket failed" << std::endl;
@@ -46,7 +46,7 @@ int main(int argc, char* argv[]) {
     si.cb = sizeof(si);
     ZeroMemory(&pi, sizeof(pi));
 
-    TCHAR temp[500] = TEXT("cmd /k CEG4350_FinalProj.exe netSub");
+    TCHAR temp[500] = TEXT("cmd /k CEG7420_FinalProj.exe netSub");
 
     //// Start the child process. This launches a second command prompt which gets caught and executes the netSubscriber function
     CreateProcess(
@@ -63,8 +63,8 @@ int main(int argc, char* argv[]) {
     );
 
     //instances of the publisher and subscriber
-    ceg4350::Subscriber sub;
-    ceg4350::Publisher pub;
+    ceg7420::Subscriber sub;
+    ceg7420::Publisher pub;
 
     //just a simple test to see if the target pc is capable of multi-thread or multi-process operations
     SYSTEM_INFO sysInfo;

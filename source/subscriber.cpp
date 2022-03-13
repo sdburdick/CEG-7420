@@ -6,7 +6,7 @@
 #include <ws2tcpip.h>
 #include <Winuser.h>
 
-namespace ceg4350 {
+namespace ceg7420 {
     Subscriber::Subscriber()
     {
         for (int i = 0; i < DATA_ARRAY_SIZE; i++) {

@@ -12,7 +12,7 @@
 #endif
 #define DATA_ARRAY_SIZE 100
 
-namespace ceg4350 {
+namespace ceg7420 {
     //utility is just a shared inheritance class since i got tired of implementing things twice.
     //there was a lot of shared definitions between pub and the subs, it's all here.
     class Utility {
